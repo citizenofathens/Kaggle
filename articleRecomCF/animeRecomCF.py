@@ -15,7 +15,6 @@ from scipy.sparse.linalg import svds
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 
-
 if __name__ == '__main__':
     articles_df = pd.read_csv('../input/shared_articles.csv')
     articles_df = articles_df[articles_df['eventType'] == 'CONTENT SHARED']
